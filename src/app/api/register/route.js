@@ -13,6 +13,7 @@ export async function POST(request) {
         if (exsistUser) {
             return NextResponse.json({ meg: 'user alredy exsist' })
         }
+
         const hashedPassword = await bcrypt.hash(password, 10);
 
         const newUser = await User.create({ name, email, password: hashedPassword });

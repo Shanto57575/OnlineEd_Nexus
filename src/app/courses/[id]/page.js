@@ -1,7 +1,7 @@
 'use client'
 import CoursesDashboard from '@/Components/courses/CoursesDashboard';
 import React, { useEffect, useState } from 'react';
-import person from "../../../asstes/images/person2.jpg";
+// import person from "../../../asstes/images/person2.jpg";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -87,7 +87,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -103,7 +103,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -119,7 +119,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -135,7 +135,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -151,7 +151,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -167,7 +167,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -183,7 +183,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -199,7 +199,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -215,7 +215,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"
@@ -231,7 +231,7 @@ const CourseDashboard = () => {
                     <div className="w-10 h-10 relative text-center">
                         <Image
                             className="rounded-full w-full h-full object-cover border-2 border-[#0083db]"
-                            src={person.src}
+                            src=""
                             width={600}
                             height={600}
                             alt="user photo"

@@ -11,12 +11,14 @@ import { toast } from "react-toastify";
 
 const SignIn = ({ callbackUrl }) => {
 	const [load, setLoad] = useState(false);
+
 	const {
 		register,
 		handleSubmit,
 		reset,
 		formState: { errors },
 	} = useForm();
+
 	const handleLoginUser = async (data) => {
 		setLoad(true);
 		const email = data.email;
